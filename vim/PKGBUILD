@@ -4,7 +4,7 @@
 # Contributor: Daniel J Griffiths <ghost1227@archlinux.us>
 
 pkgbase=vim
-pkgname=('myvim')
+pkgname=('vim' 'gvim' 'vim-runtime')
 _topver=7.4
 _patchlevel=214
 __hgrev=d2ef98a43b5d
@@ -104,7 +104,6 @@ build() {
     --with-x=yes \
     --enable-gui=gtk2 \
     --enable-multibyte \
-    #--disable-python3interp \
     --enable-perlinterp=yes \
     --enable-pythoninterp=yes \
     --enable-rubyinterp \
