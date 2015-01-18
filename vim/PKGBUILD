@@ -111,7 +111,7 @@ build() {
     --enable-perlinterp=yes \
     --enable-pythoninterp=yes \
     --disable-python3interp \
-    --enable-rubyinterp \
+    --enable-rubyinterp=dynamic \
     --enable-luainterp \
     --enable-cscope  \
     --with-x \
@@ -134,7 +134,7 @@ build() {
     --enable-perlinterp=yes \
     --enable-pythoninterp=yes \
     --enable-python3interp \
-    --enable-rubyinterp \
+    --enable-rubyinterp=dynamic \
     --enable-luainterp \
     --enable-cscope  \
     --with-x \
@@ -157,7 +157,7 @@ build() {
     --enable-perlinterp=yes \
     --enable-pythoninterp=yes \
     --disable-python3interp \
-    --enable-rubyinterp \
+    --enable-rubyinterp=dynamic \
     --enable-luainterp \
     --enable-cscope  \
     --disable-largefile
@@ -179,7 +179,7 @@ build() {
     --enable-perlinterp=yes \
     --enable-pythoninterp=yes \
     --enable-python3interp \
-    --enable-rubyinterp \
+    --enable-rubyinterp=dynamic \
     --enable-luainterp \
     --enable-cscope  \
     --disable-largefile
