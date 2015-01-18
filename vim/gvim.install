@@ -1,5 +1,5 @@
 post_install() {
-  update-desktop-database -q
+  update-desktop-database --quiet
 }
 
 post_upgrade() {
